@@ -10,19 +10,6 @@
     font-size: 1em
 }
 
-body {
-    height: 100vh;
-    background-color: white;
-    background-image: url(../imagens/background001.jpg);
-    background-image: url(../imagens/background002.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-
 a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
@@ -52,31 +39,51 @@ header>p{
     padding-bottom: 50px;
 }
 
-main {
-    font-family: 'Sriracha', Helvetica, sans-serif;
-    font-size: 1.6em;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family:'Sriracha', Helvetica, sans-serif;
+    font-size: 3.5vw;
 }
 
-section.containerB {
-    height: 400px;
-    padding: 80px 20px;
+section.normal {
     text-align: justify;
     background-color: white;
 }
 
-section.containerT {
+section.imagem1 {
+
     background-color: transparent;
-    height: 400px;
+    background-image: url(../imagens/background001.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-article.conteudoB {
-    background-color: yellow;
-    height: 400px;
-    width: 300px;
+section.imagem2 {
+    background-color: transparent;
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-article.conteudoT {
-    background-color: transparent;
+p.branco {
+    background-color: white;
+    display: block;
+    padding: 5px;
+}
+
+p.transparente {
+
+    background-color: rgba(0, 0, 0, 0.327);
+    color: white;
+    display: block;
+    padding: 5px;
 }
 
 footer {
